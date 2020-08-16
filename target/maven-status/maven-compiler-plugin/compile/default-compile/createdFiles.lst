@@ -1,0 +1,10 @@
+org\jacob\spigot\plugins\minefred_lobby\LobbyPlugin$1.class
+org\jacob\spigot\plugins\minefred_lobby\Scoreboards$1.class
+org\jacob\spigot\plugins\minefred_lobby\LobbyPlugin.class
+org\jacob\spigot\plugins\minefred_lobby\listeners\PlayerJoinListener.class
+org\jacob\spigot\plugins\minefred_lobby\commands\ServersCommand.class
+org\jacob\spigot\plugins\minefred_lobby\commands\StaffGuiCommand.class
+org\jacob\spigot\plugins\minefred_lobby\listeners\InventoryClickListener.class
+org\jacob\spigot\plugins\minefred_lobby\utils\ItemStackBuilder.class
+org\jacob\spigot\plugins\minefred_lobby\Scoreboards.class
+org\jacob\spigot\plugins\minefred_lobby\listeners\CompassClickListener.class

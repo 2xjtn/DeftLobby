@@ -1,0 +1,10 @@
+menu-name: "&eServer Selector"
+menu-size: 18
+message: "&eYou are being sent to &a<name>"
+menu:
+  0:
+    material: STICK
+    display-name: "&aSurvival"
+    lore:
+      - "&7Go to Survival!"
+    server-name: survival

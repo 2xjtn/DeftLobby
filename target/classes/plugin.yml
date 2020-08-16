@@ -1,0 +1,6 @@
+name: Minefred_Lobby
+version: 1.0-SNAPSHOT
+main: org.jacob.spigot.plugins.minefred_lobby.LobbyPlugin
+commands:
+  servers:
+  staffgui:
