@@ -1,4 +1,4 @@
-package org.jacob.spigot.plugins.minefred_lobby.listeners;
+package org.jacob.spigot.plugins.deftlobby.listeners;
 
 import org.bukkit.ChatColor;
 import org.bukkit.Material;

@@ -1,4 +1,4 @@
-package org.jacob.spigot.plugins.minefred_lobby.commands;
+package org.jacob.spigot.plugins.deftlobby.commands;
 
 import org.bukkit.*;
 import org.bukkit.command.Command;
@@ -10,7 +10,7 @@ import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.inventory.meta.SkullMeta;
-import org.jacob.spigot.plugins.minefred_lobby.LobbyPlugin;
+import org.jacob.spigot.plugins.deftlobby.LobbyPlugin;
 
 public class StaffGuiCommand implements CommandExecutor {
 

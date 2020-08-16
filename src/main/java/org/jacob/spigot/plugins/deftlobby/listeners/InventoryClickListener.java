@@ -1,4 +1,4 @@
-package org.jacob.spigot.plugins.minefred_lobby.listeners;
+package org.jacob.spigot.plugins.deftlobby.listeners;
 
 import com.google.common.io.ByteArrayDataOutput;
 import com.google.common.io.ByteStreams;
@@ -8,9 +8,7 @@ import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.inventory.InventoryClickEvent;
-import org.jacob.spigot.plugins.minefred_lobby.LobbyPlugin;
-
-import java.util.Objects;
+import org.jacob.spigot.plugins.deftlobby.LobbyPlugin;
 
 public class InventoryClickListener implements Listener {
 

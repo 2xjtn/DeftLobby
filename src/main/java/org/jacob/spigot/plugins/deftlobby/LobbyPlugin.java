@@ -1,10 +1,9 @@
-package org.jacob.spigot.plugins.minefred_lobby;
+package org.jacob.spigot.plugins.deftlobby;
 
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
 import org.bukkit.configuration.file.FileConfiguration;
-import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemStack;
@@ -12,13 +11,12 @@ import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.scheduler.BukkitRunnable;
-import org.jacob.spigot.plugins.minefred_lobby.commands.ServersCommand;
-import org.jacob.spigot.plugins.minefred_lobby.commands.StaffGuiCommand;
-import org.jacob.spigot.plugins.minefred_lobby.listeners.CompassClickListener;
-import org.jacob.spigot.plugins.minefred_lobby.listeners.InventoryClickListener;
-import org.jacob.spigot.plugins.minefred_lobby.listeners.PlayerJoinListener;
+import org.jacob.spigot.plugins.deftlobby.commands.ServersCommand;
+import org.jacob.spigot.plugins.deftlobby.commands.StaffGuiCommand;
+import org.jacob.spigot.plugins.deftlobby.listeners.CompassClickListener;
+import org.jacob.spigot.plugins.deftlobby.listeners.InventoryClickListener;
+import org.jacob.spigot.plugins.deftlobby.listeners.PlayerJoinListener;
 
-import java.io.IOException;
 import java.util.List;
 
 public class LobbyPlugin extends JavaPlugin {

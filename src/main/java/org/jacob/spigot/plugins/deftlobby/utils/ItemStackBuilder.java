@@ -1,4 +1,4 @@
-package org.jacob.spigot.plugins.minefred_lobby.utils;
+package org.jacob.spigot.plugins.deftlobby.utils;
 
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.Material;

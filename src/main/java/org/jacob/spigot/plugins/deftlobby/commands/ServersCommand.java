@@ -1,4 +1,4 @@
-package org.jacob.spigot.plugins.minefred_lobby.commands;
+package org.jacob.spigot.plugins.deftlobby.commands;
 
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
@@ -9,8 +9,8 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.Inventory;
-import org.jacob.spigot.plugins.minefred_lobby.LobbyPlugin;
-import org.jacob.spigot.plugins.minefred_lobby.utils.ItemStackBuilder;
+import org.jacob.spigot.plugins.deftlobby.LobbyPlugin;
+import org.jacob.spigot.plugins.deftlobby.utils.ItemStackBuilder;
 
 import java.util.ArrayList;
 import java.util.Arrays;

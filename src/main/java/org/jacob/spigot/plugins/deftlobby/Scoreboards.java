@@ -1,4 +1,4 @@
-package org.jacob.spigot.plugins.minefred_lobby;
+package org.jacob.spigot.plugins.deftlobby;
 
 import net.md_5.bungee.api.ChatColor;
 import org.bukkit.Bukkit;
