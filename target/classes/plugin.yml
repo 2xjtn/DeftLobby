@@ -1,6 +1,6 @@
-name: Minefred_Lobby
+name: DeftLobby
 version: 1.0-SNAPSHOT
-main: org.jacob.spigot.plugins.minefred_lobby.LobbyPlugin
+main: org.jacob.spigot.plugins.deftlobby.LobbyPlugin
 commands:
   servers:
   staffgui:

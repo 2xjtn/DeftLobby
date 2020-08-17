@@ -10,6 +10,7 @@ import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.Inventory;
 import org.jacob.spigot.plugins.deftlobby.LobbyPlugin;
+import org.jacob.spigot.plugins.deftlobby.listeners.InventoryClickListener;
 import org.jacob.spigot.plugins.deftlobby.utils.ItemStackBuilder;
 
 import java.util.ArrayList;
@@ -36,8 +37,9 @@ public class ServersCommand implements CommandExecutor {
             }
 
 
+            openOtherInventory(player);
 
-           openInventory(player);
+           //openInventory(player);
         }
 
         return true;
