@@ -1,8 +1,15 @@
 B:\INTELLIJ WORKSPACE\Projects\Minefred_Lobby\src\main\java\org\jacob\spigot\plugins\deftlobby\Scoreboards.java
 B:\INTELLIJ WORKSPACE\Projects\Minefred_Lobby\src\main\java\org\jacob\spigot\plugins\deftlobby\listeners\PlayerJoinListener.java
 B:\INTELLIJ WORKSPACE\Projects\Minefred_Lobby\src\main\java\org\jacob\spigot\plugins\deftlobby\utils\ItemStackBuilder.java
-B:\INTELLIJ WORKSPACE\Projects\Minefred_Lobby\src\main\java\org\jacob\spigot\plugins\deftlobby\commands\ServersCommand.java
-B:\INTELLIJ WORKSPACE\Projects\Minefred_Lobby\src\main\java\org\jacob\spigot\plugins\deftlobby\LobbyPlugin.java
+B:\INTELLIJ WORKSPACE\Projects\Minefred_Lobby\src\main\java\org\jacob\spigot\plugins\deftlobby\listeners\PlayerMoveListener.java
 B:\INTELLIJ WORKSPACE\Projects\Minefred_Lobby\src\main\java\org\jacob\spigot\plugins\deftlobby\listeners\CompassClickListener.java
 B:\INTELLIJ WORKSPACE\Projects\Minefred_Lobby\src\main\java\org\jacob\spigot\plugins\deftlobby\commands\StaffGuiCommand.java
 B:\INTELLIJ WORKSPACE\Projects\Minefred_Lobby\src\main\java\org\jacob\spigot\plugins\deftlobby\listeners\InventoryClickListener.java
+B:\INTELLIJ WORKSPACE\Projects\Minefred_Lobby\src\main\java\org\jacob\spigot\plugins\deftlobby\commands\PasswordCommand.java
+B:\INTELLIJ WORKSPACE\Projects\Minefred_Lobby\src\main\java\org\jacob\spigot\plugins\deftlobby\utils\MysqlConnection.java
+B:\INTELLIJ WORKSPACE\Projects\Minefred_Lobby\src\main\java\org\jacob\spigot\plugins\deftlobby\utils\Status.java
+B:\INTELLIJ WORKSPACE\Projects\Minefred_Lobby\src\main\java\org\jacob\spigot\plugins\deftlobby\commands\ServersCommand.java
+B:\INTELLIJ WORKSPACE\Projects\Minefred_Lobby\src\main\java\org\jacob\spigot\plugins\deftlobby\LobbyPlugin.java
+B:\INTELLIJ WORKSPACE\Projects\Minefred_Lobby\src\main\java\org\jacob\spigot\plugins\deftlobby\listeners\PlayerCommandListener.java
+B:\INTELLIJ WORKSPACE\Projects\Minefred_Lobby\src\main\java\org\jacob\spigot\plugins\deftlobby\utils\Database.java
+B:\INTELLIJ WORKSPACE\Projects\Minefred_Lobby\src\main\java\org\jacob\spigot\plugins\deftlobby\listeners\PlayerChatListener.java

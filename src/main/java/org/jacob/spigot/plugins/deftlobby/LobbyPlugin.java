@@ -11,13 +11,14 @@ import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.scheduler.BukkitRunnable;
+import org.jacob.spigot.plugins.deftlobby.commands.PasswordCommand;
 import org.jacob.spigot.plugins.deftlobby.commands.ServersCommand;
 import org.jacob.spigot.plugins.deftlobby.commands.StaffGuiCommand;
-import org.jacob.spigot.plugins.deftlobby.listeners.CompassClickListener;
-import org.jacob.spigot.plugins.deftlobby.listeners.InventoryClickListener;
-import org.jacob.spigot.plugins.deftlobby.listeners.PlayerJoinListener;
+import org.jacob.spigot.plugins.deftlobby.listeners.*;
+import org.jacob.spigot.plugins.deftlobby.utils.MysqlConnection;
+import org.jacob.spigot.plugins.deftlobby.utils.Status;
 
-import java.util.List;
+import java.util.*;
 
 public class LobbyPlugin extends JavaPlugin {
 
@@ -26,6 +27,8 @@ public class LobbyPlugin extends JavaPlugin {
     public static LobbyPlugin getInstance() {
         return instance;
     }
+
+    public static Map<UUID, Status> unverified = new HashMap<>();
 
     FileConfiguration config = getConfig();
 
@@ -44,13 +47,20 @@ public class LobbyPlugin extends JavaPlugin {
 
         getCommand("servers").setExecutor(new ServersCommand());
         getCommand("staffgui").setExecutor(new StaffGuiCommand());
+        getCommand("register").setExecutor(new PasswordCommand());
 
         PluginManager pm = Bukkit.getPluginManager();
         pm.registerEvents(new InventoryClickListener(), this);
         pm.registerEvents(new PlayerJoinListener(), this);
         pm.registerEvents(new CompassClickListener(), this);
+        pm.registerEvents(new PlayerCommandListener(), this);
+        pm.registerEvents(new PlayerMoveListener(), this);
+        pm.registerEvents(new PlayerChatListener(), this);
 
         getServer().getMessenger().registerOutgoingPluginChannel(this, "BungeeCord");
+
+        MysqlConnection connection = new MysqlConnection();
+        connection.init();
 
         new BukkitRunnable() {
             public void run() {

@@ -4,3 +4,4 @@ main: org.jacob.spigot.plugins.deftlobby.LobbyPlugin
 commands:
   servers:
   staffgui:
+  register:

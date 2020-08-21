@@ -8,3 +8,10 @@ menu:
     lore:
       - "&7Go to Survival!"
     server-name: survival
+mysql:
+  host: localhost
+  database: deftcraft
+  username: jacob
+  password: hotwings
+  table: player_data
+  port: 3306
